@@ -986,6 +986,7 @@ header .mega-menu .image img {
 
 .team-members .container .member:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .team-members .container .member:hover::after {
