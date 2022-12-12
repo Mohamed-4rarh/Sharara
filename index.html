@@ -20,10 +20,10 @@
                         <li><a href="#articles">Articles</a></li>
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#features">Features</a></li>
-                        <li>
-                            <a href="#" id="mega">Other Links</a>
+                        <li class="mega-hover">
+                            <a href="#">Other Links</a>
                             <!-- Mega Menu  -->
-                            <div class="mega-menu" id="megamenu">
+                            <div class="mega-menu">
                                 <div class="image">
                                     <img src="images/megamenu.png" alt="">
                                 </div>
@@ -819,16 +819,9 @@
 
         <script>
             //set buttons click
-            megaBtn = document.getElementById('mega');
-            megaMenu = document.getElementById('megamenu');
 
             topVideos = document.getElementById('top-videos');
             showTopVideos = document.getElementById('show-top-videos');
-
-            megaBtn.onclick = function() {
-                megaMenu.classList.toggle('clicked');
-                megaBtn.classList.toggle('clicked');
-            }
 
             showTopVideos.onclick = function() {
                 topVideos.classList.toggle('showen');
