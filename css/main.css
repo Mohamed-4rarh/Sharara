@@ -234,7 +234,7 @@ header .container nav ul.nav-bar li a::before {
     transition: var(--main-transition);
 }
 
-header .container nav ul.nav-bar > li > a:hover, header a.clicked {
+header .container nav ul.nav-bar > li > a:hover {
     color: var(--main-color);
     background-color: #f2f2f2;
 }
@@ -243,7 +243,7 @@ header .container nav ul.nav-bar > li > a:hover::before {
     left: 0;
 }
 
-header div.clicked {
+header .container ul.nav-bar .mega-hover .mega-menu {
     z-index: 100;
     opacity: 1;
     top: calc(100% + 1px);
