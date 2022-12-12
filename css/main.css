@@ -1644,9 +1644,10 @@ header .mega-menu .image img {
     transition: var(--main-transition);
 }
 
-.videos .holder .control .rotating {
+.videos .holder .control .rotated {
     transform: rotate(180deg);
 }
+
 
 .videos .holder .list {
     min-width: 300px;
