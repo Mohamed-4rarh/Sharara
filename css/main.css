@@ -1644,11 +1644,6 @@ header .mega-menu .image img {
     transition: var(--main-transition);
 }
 
-.videos .holder .control .rotated {
-    transform: rotate(180deg);
-}
-
-
 .videos .holder .list {
     min-width: 300px;
     background-color: white;
@@ -1747,6 +1742,10 @@ header .mega-menu .image img {
     .videos .holder .control .show {
         visibility: visible;
         cursor: pointer;
+    }
+    
+    .videos .holder .control .rotated {
+        transform: rotate(180deg);
     }
 
     .videos .holder .list ul.showen {
