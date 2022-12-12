@@ -1641,6 +1641,11 @@ header .mega-menu .image img {
 
 .videos .holder .control .show {
     visibility: hidden;
+    transition: var(--main-transition);
+}
+
+.videos .holder .control .rotating {
+    transform: rotate(180deg);
 }
 
 .videos .holder .list {
