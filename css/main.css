@@ -243,7 +243,7 @@ header .container nav ul.nav-bar > li > a:hover::before {
     left: 0;
 }
 
-header .container ul.nav-bar .mega-hover:hover .mega-menu {
+header .container .mega-hover:hover .mega-menu {
     z-index: 100;
     opacity: 1;
     top: calc(100% + 1px);
